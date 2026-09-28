@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+# data and artifacts stay out of git
+data/*
+!data/README.md
+outputs/
+*.pt
+*.pth
+submission.csv
